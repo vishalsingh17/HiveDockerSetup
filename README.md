@@ -162,8 +162,6 @@ Start the hiveserver2:
 Maybe a little check that something is listening on port 10000 now
 ```
 netstat -anp | grep 10000
-tcp        0      0 0.0.0.0:10000           0.0.0.0:*               LISTEN      446/java
-
 ```
 
 Okay. Beeline is the command line interface with Hive. Let's connect to hiveserver2 now.
@@ -177,13 +175,6 @@ Didn't expect to encounter scott/tiger again after my Oracle days. But there you
 Not a lot of databases here yet.
 ```
 show databases;
-  
-+----------------+
-| database_name  |
-+----------------+
-| default        |
-+----------------+
-1 row selected (0.335 seconds)
 ```
 
 Let's change that.
