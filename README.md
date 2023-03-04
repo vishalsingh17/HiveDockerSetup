@@ -149,7 +149,7 @@ How cool is that? Your own Spark cluster to play with. -->
 
 ## Quick Start Hive
 
-Go to the command line of the Hive server
+Open another powershell terminal and execute below command
 
 ```
   docker exec -it hive-server bash
